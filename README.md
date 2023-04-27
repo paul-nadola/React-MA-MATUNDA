@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# MA-MA-TUNDA FRUIT E-COMMERCE SHOP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a web application for a fruit store. The application allows users to view available fruits, add fruits to their cart, and purchase fruits. The application also has an admin section that allows an administrator to add new fruits to the store.
 
-## Available Scripts
+User Functionalities
+The user functionalities of this application are:
 
-In the project directory, you can run:
+View fruits: The user can view all the available fruits on the website.
 
-### `npm start`
+Add fruits to cart: The user can add fruits to their cart by clicking the "Add to cart" button on each fruit card. They can also select the quantity they want to purchase.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+View cart: The user can view their cart by clicking on the cart icon. The cart displays all the fruits they have added, their respective quantities, and the total cost of the fruits.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Remove items from cart: The user can remove an item from the cart by clicking on the "Remove" button on the cart item.
 
-### `npm test`
+Purchase fruits: The user can purchase the fruits in their cart by clicking the "Buy" button. This will deduct the purchased quantity from the available quantity in the store.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Admin Functionalities
+The admin functionalities of this application are:
 
-### `npm run build`
+Add fruits to the store: The admin can add new fruits to the store by filling out a form in the admin section. The form requires the admin to enter the fruit name, description, image link, and price.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Update fruits to the store: The admin can update new fruits to the store by filling out a form in the admin section. The form requires the admin to enter the fruit name needed to update and enter the details they need to change.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+View fruits in the store: The admin can view all the fruits in the store by accessing the admin section.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Update fruit quantity: The quantity of a fruit in the store is automatically updated when a user purchases it. However, the admin can also manually update the quantity of a fruit.
 
-### `npm run eject`
+Delete fruits from the store: The admin can delete a fruit from the store by clicking the "Delete" button on the fruit card.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies Used
+HTML
+CSS
+JavaScript
+JSON
+Fetch API
+How to Use
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Credits
+This application was developed by PAUL NADOLA OYINGA. If you have any questions or suggestions, please contact me at nadolapaul@gmil.com.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Future Improvements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Implement a login system for admins
+Improve the design and layout of the website
+Credits
+The fruit data used in this project was obtained from Fruit API and pexels.com
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Author : Paul Nadola Oyinga
