@@ -1,10 +1,13 @@
 import React from "react";
+import Header from "./Header";
+import DisplayFruits from "./DisplayFruits";
 
 
 function App() {
   return (
     <div>
-        HI
+        <Header/>
+        <DisplayFruits/>
     </div>
   );
 }
